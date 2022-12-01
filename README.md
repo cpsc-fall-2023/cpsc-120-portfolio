@@ -21,6 +21,7 @@ Consider this as a first draft of what shall be many drafts of your personal hom
 
 
 ## Markdown
+
 We shall start by creating a personal web page using [Markdown](https://en.wikipedia.org/wiki/Markdown) instead of HTML. Markdown is a human readable, lightweight markup language with a syntax that is easy to learn and use. Markdown is the markup language that your instructor uses for all the `README.md` files. The Markdown project's home page is https://daringfireball.net/projects/markdown/.
 
 Everything you need to know can be learned from this Markdown cheat sheet, https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet and by looking at README.md files from past lab assignments. (Even this one!)
@@ -31,7 +32,7 @@ Students who are interested in having a page that looks fancier can use [HTML](h
 
 A _universal resource locator_ or _URL_ is the term we use to identify unique addresses on the World Wide Web. Casually in conversation, we may refer to a URL as a _link_. GitHub's URL or link is http://github.com and CSU Fullerton's is http://fullerton.edu.
 
-Think about your three favorite lab exercises that you completed this semester. Below are the links to each Canvas lab assignment. Bookmark or write down your favorite lab repositories or lab parts. You will need these URLs for the next step.
+Think about your three favorite lab exercises that you completed this semester. Below are the links to each Canvas lab assignment. *Bookmark or write down your favorite lab repositories or lab parts. You will need these URLs for the next step.*
 
 * [Lab 02](https://csufullerton.instructure.com/courses/3381162/assignments/34485143)
 * [Lab 03](https://csufullerton.instructure.com/courses/3381162/assignments/34562947)
@@ -47,7 +48,7 @@ Think about your three favorite lab exercises that you completed this semester. 
 
 ## Step 2: Transferring Repositories
 
-If you did not bookmark your favorite repositories in Step 1, please go back and do that before continuing.
+*If you did not bookmark your favorite repositories in Step 1, please go back and do that before continuing.*
 
 The repositories that you used in your course are all owned by your instructor. After the semester is over, the repositories will be archived and then deleted. This means that if you want to save a copy of your work for your portfolio or for next semester, you will need to transfer the repository to your own GitHub account.
 
@@ -60,52 +61,79 @@ If you do not know what your PAT is, just create a new one following [GitHub's P
 
 Verify that you have imported the repository by visiting your GitHub profile. If you do not see the repository in your profile then it did not transfer. Try following the steps again and if you continue to be unsuccessful ask an instructor for help. (To get to your profile, login to [GitHub](https://github.com/), click on your profile icon in the upper right hand corner, and then click on _Your profile_.)
 
-## GitHub Pages
+## Step 3: Reflection
 
-[GitHub Pages](https://pages.github.com/) is a service where you create a git repository that contains HTML, CSS, JavaScript, images, etc. for your own personal home page and GitHub will serve those pages for you at no cost to you.
+*Before continuing: please have your three favorite projects selected. Verify that you have transferred those repositories into your GitHub account. Seek assistance from your instructor if needed.*
+
+For each of your favorite labs, write down in your notebook 1-2 sentences why that lab is your favorite and what you learned. Be specific about why you like the lab and what you learned. _It is part of your grade for this assignment!_
+
+For example, in [Lab 07](https://csufullerton.instructure.com/courses/3381162/assignments/34637727) there were two parts. The first part was writing a program that calculates the number of days between two dates and the second part calculated the value of a Blackjack hand. One could write:
+
+> Lab 7, part 2 was a favorite because I was always curious about how the game Blackjack works. I was able to write functions for the first time that calculate the correct value of a Blackjack hand no matter how many Aces were dealt.
+
+Carefully and considerately write your reflection about your three favorite labs. Your spelling and grammar matter.
 
 
-To create your own home page, I shall followed the instructions given on https://pages.github.com.
+## Step 4: Your Home Page
+
+*Before continuing: please have your reflections from Step 3 written down and ready to be published on the web. Check your spelling and grammar, use tools like Google Docs, Microsoft Word, and Grammarly to improve your writing.*
+
+We will use [GitHub Pages](https://pages.github.com/) to host and serve your home page. GitHub Pages is a service where you create a git repository that contains HTML, CSS, JavaScript, images, etc. for your own personal home page and GitHub will serve those pages for you at no cost.
+
+To create your own home page, follow the instructions given on https://pages.github.com. Make sure the _User or organization site_ button is selected and not _Project site_.
+
+*Use the GitHub username that you have used in CPSC 120A. Using a different GitHub username will result in a missing assignment and a 0 (zero) grade.*
+
 1. Log into GitHub, https://github.com
-1. My GitHub login is `mshafae`. I created a new repository, https://github.com/new, and named it `mshafae.github.io`. Replace `mshafae` with your GitHub username.
-1. Clone the repository to your computer using the `git clone` command.
+
+1. Create a new repository for your web pages. The name of the repository is very important. You must use your GitHub username as part of your repository name. For example, my GitHub login is `mshafae`. I created a new repository, https://github.com/new, and named the repository `mshafae.github.io`. *Replace `mshafae` with your GitHub username.*
+
+1. We are using the _terminal git client_. Clone the repository to your computer using the `git clone` command. *Replace `mshafae` with your GitHub username.*
 ```
 git clone https://github.com/username/mshafae.github.io
 ```
-Again, replace `mshafae` with your GitHub username.
-1. Change directory to be inside your repository, `cd mshafae.github.io` for example. In this directory, using your text editor, create a file named `index.md`.
 
-Start by adding the following into `index.md` and replace your_username with your GitHub username. Additionally, replace the URL for Lab 1 with the correct URL for your own lab 1 assignment.
+1. Change directory to be inside your repository, `cd mshafae.github.io` for example. In this directory, using your text editor, VS Code, create a file named `index.md`. In the terminal, you can use the command `code index.md` and it will create the file `index.md` and open it for editing.
+
+Start by adding the following into `index.md` and replace *your_username* with your GitHub username, *Your Name* with your name, and *your_major* with your major.
+
+Additionally, replace the URL for Lab 1 with the correct URL for your own lab 1 assignment.
 ```
 # Hello World
-This is my home page! My name is Your Name and I am a student at [Cal State Fullerton](http://www.fullerton.edu/).
+This is my home page! My name is Your Name and I am a student at [Cal State Fullerton](http://www.fullerton.edu/) and my major is your_major.
 
 ## Computer Science Projects
 My GitHub page is http://github.com/your_username.
+
 ### CPSC 120
-* [Lab 1](http://github.com/your_username/)
+
+* [Lab 7](http://github.com/your_username/the_link_to_your_repository)
+Lab 7, part 2 was a favorite because I was always curious about how the game Blackjack works. I was able to write functions for the first time that calculate the correct value of a Blackjack hand no matter how many Aces were dealt.
 
 ```
 
-Save this file and commit it, `git commit -a -m "Initial commit of my home page"`. Then push the changes back to GitHub, `git push`.
+1. Save this file and add it to your repository with the `git add` command.
+```
+$ git add index.md
+```
 
-Once you have pushed the changes to GitHub, use your web browser to visit your GitHub Page. In your instructors case, that URL is http://mshafae.github.io. Replace `mshafae` with your GitHub login to see if your changes appeared online.
+1. Commit the changes to your git repository and push the changes back to GitHub using the `git commit` and `git push` commands.
+```
+$ git commit -a -m "Initial commit of my home page."
+$ git push
+```
+
+1. If you have successfully created your `index.md` file and pushed it to GitHub, you can visit your own GitHub Pages URL to view your newly created page. For example, if your username is `mshafae`, then you would type `https://mshafae.github.io` in the address box of your web browser. Replace `mshafae` with your GitHub username.
 
 If your changes did not appear online, then
 1. Make sure you have the correct URL, remember it is github.io not github.com
 1. Make sure you have committed and pushed your changes, look at the repository on GitHub.com to make sure the changes are there
 1. Retrace all your steps
+If you do not see your web page or you think something is wrong, please ask your instructor for help.
 
 (If you are interested in having private repositories, you can explore the [GitHub Student Developer Pack](https://education.github.com/pack). You will have GitHub Pro while you are a student with the option to cancel when you are no longer a student. There are many other commercial services with student oriented promotions which are included in the pack.)
 
-## Templates
-Markdown is an effective tool to create readable documents that can be processed into HTML. However, it is very hard to create a beautiful, responsive web page.
-
-Students interested in creating a web page that better reflects their personal aesthetic and is not as bland as what you can produce with Markdown are encouraged to use templates.
-
-You are encouraged to visit sites such as [TEMPLATED](https://templated.co/) where many templates are available for you to copy and use for your own needs. Remember, that you are using someone else's work and that work has been licensed to you so please do not remove the copyright and the attribution.
-
-Open the html files in your text editor and makes changes as you see fit. You will be surprised at how easily you can take a template and adapt it for your own needs.
+# Extras
 
 You can make your links to your projects more interesting by using animated GIFs of your terminal. You can create animated gifs using [ttyrec](https://en.wikipedia.org/wiki/Ttyrec) with [ttygif](https://github.com/icholy/ttygif) or [terminalizer](https://www.terminalizer.com). On Ubuntu Linux, you can easily install packages `ttyrec`, `ttygif`, and `xdotool` with the command `sudo apt install ttyrec ttygif xdotool`. Below is an animated GIF of the installation process.
 
