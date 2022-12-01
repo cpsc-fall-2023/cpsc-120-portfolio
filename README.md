@@ -156,6 +156,10 @@ For example, let us image that you have an image named `gradient.png` and we wan
     ```
 1. If you have successfully embedded an image into your `index.md` file and pushed it to GitHub, you can visit your own GitHub Pages URL. For example, if your username is `mshafae`, then you would type `https://mshafae.github.io` in the address box of your web browser. Replace `mshafae` with your GitHub username.
 
+Below is an example of how to embed an image into this page using the Markdown code `![Example gradient image.](images/gradient.png)`.
+
+![Example gradient image.](images/gradient.png)
+
 ## GIF Screencasts
 
 You can make your links to your projects more interesting by using animated GIFs of your terminal. You can create animated gifs using [ttyrec](https://en.wikipedia.org/wiki/Ttyrec) with [ttygif](https://github.com/icholy/ttygif) or [terminalizer](https://www.terminalizer.com). On Ubuntu Linux, you can easily install packages `ttyrec`, `ttygif`, and `xdotool` with the command `sudo apt install ttyrec ttygif xdotool`. Below is an animated GIF of the installation process.
@@ -176,7 +180,7 @@ $ export WINDOWID=$(xdotool getwindowfocus)
 
 Paul Czarkowski has some [brief instructions](https://medium.com/@pczarkowski/how-to-make-an-animated-gif-of-your-terminal-commands-62b08dfb6089) on how to create an animated GIF and then optimize it using [`gifsicle`](http://www.lcdf.org/gifsicle/) to make the file size smaller.
 
-## Submission
+# Rubric
 In the file homepage.txt, write your GitHub Pages URL and push it to your repository.
 
 
