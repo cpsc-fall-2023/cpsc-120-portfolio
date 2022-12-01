@@ -87,37 +87,36 @@ To create your own home page, follow the instructions given on https://pages.git
 1. Log into GitHub, https://github.com
 1. Create a new repository for your web pages. The name of the repository is very important. You must use your GitHub username as part of your repository name. For example, my GitHub login is `mshafae`. I created a new repository, https://github.com/new, and named the repository `mshafae.github.io`. *Replace `mshafae` with your GitHub username.*
 1. We are using the _terminal git client_. Clone the repository to your computer using the `git clone` command. *Replace `mshafae` with your GitHub username.*
-```
-git clone https://github.com/username/mshafae.github.io
-```
+    ```
+    git clone https://github.com/username/mshafae.github.io
+    ```
 1. Change directory to be inside your repository, `cd mshafae.github.io` for example. In this directory, using your text editor, VS Code, create a file named `index.md`. In the terminal, you can use the command `code index.md` and it will create the file `index.md` and open it for editing.
 Start by adding the following into `index.md` and replace *your_username* with your GitHub username, *Your Name* with your name, and *your_major* with your major.
+
 Additionally, replace the URL for Lab 1 with the correct URL for your own lab 1 assignment.
-```
-# Hello World
-This is my home page! My name is Your Name and I am a student at [Cal State Fullerton](http://www.fullerton.edu/) and my major is your_major.
 
-## Computer Science Projects
-My GitHub page is http://github.com/your_username.
+    ```
+    # Hello World
+    This is my home page! My name is Your Name and I am a student at [Cal State Fullerton](http://www.fullerton.edu/) and my major is your_major.
 
-### CPSC 120
+    ## Computer Science Projects
+    My GitHub page is http://github.com/your_username.
 
-* [Lab 7](http://github.com/your_username/the_link_to_your_repository)
-Lab 7, part 2 was a favorite because I was always curious about how the game Blackjack works. I was able to write functions for the first time that calculate the correct value of a Blackjack hand no matter how many Aces were dealt.
+    ### CPSC 120
 
-```
+    * [Lab 7](http://github.com/your_username/the_link_to_your_repository)
+    Lab 7, part 2 was a favorite because I was always curious about how the game Blackjack works. I was able to write functions for the first time that calculate the correct value of a Blackjack hand no matter how many Aces were dealt.
 
+    ```
 1. Save this file and add it to your repository with the `git add` command.
-```
-$ git add index.md
-```
-
+    ```
+    $ git add index.md
+    ```
 1. Commit the changes to your git repository and push the changes back to GitHub using the `git commit` and `git push` commands.
-```
-$ git commit -a -m "Initial commit of my home page."
-$ git push
-```
-
+    ```
+    $ git commit -a -m "Initial commit of my home page."
+    $ git push
+    ```
 1. If you have successfully created your `index.md` file and pushed it to GitHub, you can visit your own GitHub Pages URL to view your newly created page. For example, if your username is `mshafae`, then you would type `https://mshafae.github.io` in the address box of your web browser. Replace `mshafae` with your GitHub username.
 
 If your changes did not appear online, then
