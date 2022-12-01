@@ -8,6 +8,7 @@ If you do not have any experience or knowledge on how to make a web page, this w
 
 We shall use GitHub's service called [GitHub Pages](https://pages.github.com/) to host your web page in a GitHub repository. We shall use [Markdown](https://en.wikipedia.org/wiki/Markdown) instead of HTML to simplify creating our web pages.
 
+This is a graded assignment. There is a rubric at the end of the document which will guide how your assignment is scored.
 
 ## Background & Motivation
 
@@ -128,6 +129,8 @@ If you continue to have problems, please ask your instructor for help.
 
 # Extras
 
+Extras are welcome and encouraged however they are not required. Your grade will not improve or suffer should you choose to or choose not to include any extras. Your grade shall be calculated using the rubric given at the end of this document.
+
 ## Images
 Use some images to show off who you are and what you have accomplished. For example, the images you created in Labs 10 and 12 are beautiful and you can embed them into your page very easily.
 
@@ -180,10 +183,9 @@ $ export WINDOWID=$(xdotool getwindowfocus)
 
 Paul Czarkowski has some [brief instructions](https://medium.com/@pczarkowski/how-to-make-an-animated-gif-of-your-terminal-commands-62b08dfb6089) on how to create an animated GIF and then optimize it using [`gifsicle`](http://www.lcdf.org/gifsicle/) to make the file size smaller.
 
+## Custom Domain
+
+If you really would like to get fancy, you can [register a custom Internet domain and have it map onto your GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages). 
+
 # Rubric
-In the file homepage.txt, write your GitHub Pages URL and push it to your repository.
 
-
-https://help.github.com/en/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site
-
-https://domains.google.com/
