@@ -93,7 +93,7 @@ To create your own home page, follow the instructions given on https://pages.git
 1. Change directory to be inside your repository, `cd mshafae.github.io` for example. In this directory, using your text editor, VS Code, create a file named `index.md`. In the terminal, you can use the command `code index.md` and it will create the file `index.md` and open it for editing.
 Start by adding the following into `index.md` and replace *your_username* with your GitHub username, *Your Name* with your name, and *your_major* with your major.
 
-Additionally, replace the URL for Lab 1 with the correct URL for your own lab 1 assignment.
+    Additionally, replace the URL for Lab 1 with the correct URL for your own lab 1 assignment.
 
     ```
     # Hello World
