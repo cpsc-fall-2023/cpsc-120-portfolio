@@ -87,13 +87,13 @@ To create your own home page, follow the instructions given on https://pages.git
 1. Log into GitHub, https://github.com
 1. Create a new repository for your web pages. The name of the repository is very important. You must use your GitHub username as part of your repository name. For example, my GitHub login is `mshafae`. I created a new repository, https://github.com/new, and named the repository `mshafae.github.io`. *Replace `mshafae` with your GitHub username.*
 1. We are using the _terminal git client_. Clone the repository to your computer using the `git clone` command. *Replace `mshafae` with your GitHub username.*
-    ```
+    ```sh
     git clone https://github.com/username/mshafae.github.io
     ```
 1. Change directory to be inside your repository, `cd mshafae.github.io` for example. In this directory, using your text editor, VS Code, create a file named `index.md`. In the terminal, you can use the command `code index.md` and it will create the file `index.md` and open it for editing.
 Start by adding the following into `index.md` and replace *your_username* with your GitHub username, *Your Name* with your name, and *your_major* with your major.
-
-    Additionally, replace the URL for Lab 1 with the correct URL for your own lab 1 assignment.
+    
+    Use the reflections that you wrote in the previous step to create a bulleted list of at least three projects from CPSC 120. Make sure that the links you use are correct by clicking the links and verifying that they load correctly. The previously used example is shown below.
 
     ```
     # Hello World
@@ -109,11 +109,11 @@ Start by adding the following into `index.md` and replace *your_username* with y
 
     ```
 1. Save this file and add it to your repository with the `git add` command.
-    ```
+    ```sh
     $ git add index.md
     ```
 1. Commit the changes to your git repository and push the changes back to GitHub using the `git commit` and `git push` commands.
-    ```
+    ```sh
     $ git commit -a -m "Initial commit of my home page."
     $ git push
     ```
@@ -121,13 +121,42 @@ Start by adding the following into `index.md` and replace *your_username* with y
 
 If your changes did not appear online, then
 1. Make sure you have the correct URL, remember it is github.io not github.com
-1. Make sure you have committed and pushed your changes, look at the repository on GitHub.com to make sure the changes are there
+1. Make sure you have committed and pushed your changes, look at the repository on GitHub.com to make sure the changes are there. Use `git status` to check the status of your files and repository.
 1. Retrace all your steps
-If you do not see your web page or you think something is wrong, please ask your instructor for help.
 
-(If you are interested in having private repositories, you can explore the [GitHub Student Developer Pack](https://education.github.com/pack). You will have GitHub Pro while you are a student with the option to cancel when you are no longer a student. There are many other commercial services with student oriented promotions which are included in the pack.)
+If you continue to have problems, please ask your instructor for help.
 
 # Extras
+
+## Images
+Use some images to show off who you are and what you have accomplished. For example, the images you created in Labs 10 and 12 are beautiful and you can embed them into your page very easily.
+
+For example, let us image that you have an image named `gradient.png` and we want to place the image in this page.
+
+1. Create a directory in your repository named images using the `mkdir` command.
+    ```sh
+    $ mkdir images
+    ```
+1. Next identify where you have the file `gradient.png`. Let us assume that the file is located in `/home/mshafae/cpsc120/cpsc-120-lab-10-mshafae/part-3/gradient.png`. Copy the file into your new `images` directory.
+    ```sh
+    $ cp /home/mshafae/cpsc120/cpsc-120-lab-10-mshafae/part-3/gradient.png images
+    ```
+1. Add the `images` directory to your repository, including the image you just copied using the `git add` command.
+    ```sh
+    $ git add images
+    ```
+1. In the file `index.md`, using VS Code, add Markdown text to embed the image into your page. This will place the image in the file when you view it through your web browser.
+    ```
+    ![The gradient image from Lab 10](images/gradient.png)
+    ```
+1. Save the changes you made to `index.md`, commit and push your changes.
+    ```sh
+    $ git commit -a -m "Added an image to my index.md"
+    $ git push
+    ```
+1. If you have successfully embedded an image into your `index.md` file and pushed it to GitHub, you can visit your own GitHub Pages URL. For example, if your username is `mshafae`, then you would type `https://mshafae.github.io` in the address box of your web browser. Replace `mshafae` with your GitHub username.
+
+## GIF Screencasts
 
 You can make your links to your projects more interesting by using animated GIFs of your terminal. You can create animated gifs using [ttyrec](https://en.wikipedia.org/wiki/Ttyrec) with [ttygif](https://github.com/icholy/ttygif) or [terminalizer](https://www.terminalizer.com). On Ubuntu Linux, you can easily install packages `ttyrec`, `ttygif`, and `xdotool` with the command `sudo apt install ttyrec ttygif xdotool`. Below is an animated GIF of the installation process.
 
@@ -136,6 +165,14 @@ You can make your links to your projects more interesting by using animated GIFs
 Once you have the tools installed, you can create GIFs demonstrating your programs like the one below demonstrating a _Hello World!_ program that we wrote back in Week 1.
 
 ![Animated GIF of the terminal output compiling a C++ program and then executing the binary which prints the messaage "Hello World!".](images/clang-hello-world.gif)
+
+If you run into a problem where the `ttygif` program throws an error and says `Error: WINDOWID environment variable was empty.`, then there is a simple fix for Ubuntu Linux using `xdotool` given on the [`ttygif` README](https://github.com/icholy/ttygif/blob/master/README.md).
+
+If you're on Ubuntu, you can use `xdotool` to find the WINDOWID
+``` sh
+$ sudo apt-get install xdotool
+$ export WINDOWID=$(xdotool getwindowfocus)
+```
 
 Paul Czarkowski has some [brief instructions](https://medium.com/@pczarkowski/how-to-make-an-animated-gif-of-your-terminal-commands-62b08dfb6089) on how to create an animated GIF and then optimize it using [`gifsicle`](http://www.lcdf.org/gifsicle/) to make the file size smaller.
 
