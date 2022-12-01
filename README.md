@@ -189,3 +189,16 @@ If you really would like to get fancy, you can [register a custom Internet domai
 
 # Rubric
 
+This exercise is worth 30 points. There is no programming in this assignment.
+
+A submission that does not use the GitHub username the instructors have on record or is not accessible using GitHub Pages shall be considered missing and receive a 0 score.
+
+* Repository: (6 points) Your repository is correctly named and can be accessed using GitHub pages. For example, if your username is `tuffy`, then the repository name is `tuffy.github.io` and the index page can be reached by visiting the URL `https://tuffy.github.io/`.
+
+* Index File & Student Information: (6 points) An index file exists and can be viewed using a web browser from GitHub Pages. The index file is written in Markdown or HTML. The index file contains at a minimum, the student's name, the university the student attends, the student's major, and a link to their GitHub profile. Students are urged to use the template provided in this document.
+    Index files that are not written in Markdown or HTML shall receive 0 points in this category.
+    Index files that are missing in part or in whole the required student information shall receive 0 points in this category.
+
+* Favorite Labs and Reflection: (6 points each; 18 points total) The index file must clearly identify a minimum of three lab assignments from the current CPSC 120 term that were authored by the student or a student team that the student was a part of. Each listed lab must have a hyperlink to a copy of the lab's repository under the student's GitHub account. Each lab must have a grammatically correct and meaninful reflection. Students are urged to use the template provided in this document.
+    Missing or incomplete lab and reflection will loose 6 points each.
+    Reflections which contain gratuitous grammatical or spelling errors will loose 6 points each.
