@@ -85,18 +85,13 @@ To create your own home page, follow the instructions given on https://pages.git
 *Use the GitHub username that you have used in CPSC 120A. Using a different GitHub username will result in a missing assignment and a 0 (zero) grade.*
 
 1. Log into GitHub, https://github.com
-
 1. Create a new repository for your web pages. The name of the repository is very important. You must use your GitHub username as part of your repository name. For example, my GitHub login is `mshafae`. I created a new repository, https://github.com/new, and named the repository `mshafae.github.io`. *Replace `mshafae` with your GitHub username.*
-
 1. We are using the _terminal git client_. Clone the repository to your computer using the `git clone` command. *Replace `mshafae` with your GitHub username.*
 ```
 git clone https://github.com/username/mshafae.github.io
 ```
-
 1. Change directory to be inside your repository, `cd mshafae.github.io` for example. In this directory, using your text editor, VS Code, create a file named `index.md`. In the terminal, you can use the command `code index.md` and it will create the file `index.md` and open it for editing.
-
 Start by adding the following into `index.md` and replace *your_username* with your GitHub username, *Your Name* with your name, and *your_major* with your major.
-
 Additionally, replace the URL for Lab 1 with the correct URL for your own lab 1 assignment.
 ```
 # Hello World
