@@ -114,7 +114,7 @@ Start by adding the following into `index.md` and replace **your_username** with
 
     The above text will transform into HTML when it is saved to GitHub and will look like the following block of text.
 
-    ># Hello World
+    # Hello World
     This is my home page! My name is Your Name and I am a student at [Cal State Fullerton](http://www.fullerton.edu/) and my major is your_major.
 
     ## Computer Science Projects
