@@ -8,7 +8,7 @@ If you do not have any experience or knowledge on how to make a web page, this w
 
 We shall use GitHub's service called [GitHub Pages](https://pages.github.com/) to host your web page in a GitHub repository. We shall use [Markdown](https://en.wikipedia.org/wiki/Markdown) instead of HTML to simplify creating our web pages.
 
-This is a graded assignment. There is a rubric at the end of the document which will guide how your assignment is scored.
+**This is an individual assignment. Each student must create their own portfolio. This is a graded assignment. There is a rubric at the end of the document which will guide how your assignment is scored.**
 
 ## Background & Motivation
 
