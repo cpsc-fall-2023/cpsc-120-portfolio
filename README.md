@@ -1,4 +1,4 @@
-# Reflection & Making a Portfolio
+# Reflection & Making a Personal Portfolio
 
 The 16 week long semester is finally over and you have accomplished so much! You learned about problem solving and programming and created a portfolio of programs that demonstrate your competency and along the way you learned and improved your note taking and team work skills.
 
@@ -33,7 +33,7 @@ Students who are interested in having a page that looks fancier can use [HTML](h
 
 A _universal resource locator_ or _URL_ is the term we use to identify unique addresses on the World Wide Web. Casually in conversation, we may refer to a URL as a _link_. GitHub's URL or link is http://github.com and CSU Fullerton's is http://fullerton.edu.
 
-Think about your three favorite lab exercises that you completed this semester. Below are the links to each Canvas lab assignment. *Bookmark or write down your favorite lab repositories or lab parts. You will need these URLs for the next step.*
+Think about your three favorite lab exercises that you completed this semester. Below are the links to each Canvas lab assignment. **Bookmark or write down your favorite lab repositories or lab parts. You will need these URLs for the next step.**
 
 * [Lab 02](https://csufullerton.instructure.com/courses/3381162/assignments/34485143)
 * [Lab 03](https://csufullerton.instructure.com/courses/3381162/assignments/34562947)
@@ -49,7 +49,7 @@ Think about your three favorite lab exercises that you completed this semester. 
 
 ## Step 2: Transferring Repositories
 
-*If you did not bookmark your favorite repositories in Step 1, please go back and do that before continuing.*
+**If you did not bookmark your favorite repositories in Step 1, please go back and do that before continuing.**
 
 The repositories that you used in your course are all owned by your instructor. After the semester is over, the repositories will be archived and then deleted. This means that if you want to save a copy of your work for your portfolio or for next semester, you will need to transfer the repository to your own GitHub account.
 
@@ -64,9 +64,9 @@ Verify that you have imported the repository by visiting your GitHub profile. If
 
 ## Step 3: Reflection
 
-*Before continuing: please have your three favorite projects selected. Verify that you have transferred those repositories into your GitHub account. Seek assistance from your instructor if needed.*
+**Before continuing: please have your three favorite projects selected. Verify that you have transferred those repositories into your GitHub account. Seek assistance from your instructor if needed.**
 
-For each of your favorite labs, write down in your notebook 1-2 sentences why that lab is your favorite and what you learned. Be specific about why you like the lab and what you learned. _It is part of your grade for this assignment!_
+For each of your favorite labs, write down in your notebook _at least 3 sentences_ why that lab is your favorite and what you learned. Your narrative should be _no less than 30 words in length_. Be specific about why you like the lab and what you learned. _It is part of your grade for this assignment!_
 
 For example, in [Lab 07](https://csufullerton.instructure.com/courses/3381162/assignments/34637727) there were two parts. The first part was writing a program that calculates the number of days between two dates and the second part calculated the value of a Blackjack hand. One could write:
 
@@ -77,22 +77,22 @@ Carefully and considerately write your reflection about your three favorite labs
 
 ## Step 4: Your Home Page
 
-*Before continuing: please have your reflections from Step 3 written down and ready to be published on the web. Check your spelling and grammar, use tools like Google Docs, Microsoft Word, and Grammarly to improve your writing.*
+**Before continuing: please have your reflections from Step 3 written down and ready to be published on the web. Check your spelling and grammar, use tools like Google Docs, Microsoft Word, and Grammarly to improve your writing.**
 
 We will use [GitHub Pages](https://pages.github.com/) to host and serve your home page. GitHub Pages is a service where you create a git repository that contains HTML, CSS, JavaScript, images, etc. for your own personal home page and GitHub will serve those pages for you at no cost.
 
 To create your own home page, follow the instructions given on https://pages.github.com. Make sure the _User or organization site_ button is selected and not _Project site_.
 
-*Use the GitHub username that you have used in CPSC 120A. Using a different GitHub username will result in a missing assignment and a 0 (zero) grade.*
+**Use the GitHub username that you have used in CPSC 120A. Using a different GitHub username will result in a missing assignment and a 0 (zero) grade.**
 
 1. Log into GitHub, https://github.com
-1. Create a new repository for your web pages. The name of the repository is very important. You must use your GitHub username as part of your repository name. For example, my GitHub login is `mshafae`. I created a new repository, https://github.com/new, and named the repository `mshafae.github.io`. *Replace `mshafae` with your GitHub username.*
-1. We are using the _terminal git client_. Clone the repository to your computer using the `git clone` command. *Replace `mshafae` with your GitHub username.*
+1. Create a new repository for your web pages. The name of the repository is very important. You must use your GitHub username as part of your repository name. For example, my GitHub login is `mshafae`. I created a new repository, https://github.com/new, and named the repository `mshafae.github.io`. **Replace `mshafae` with your GitHub username.**
+1. We are using the _terminal git client_. Clone the repository to your computer using the `git clone` command. **Replace `mshafae` with your GitHub username.**
     ```sh
     git clone https://github.com/username/mshafae.github.io
     ```
 1. Change directory to be inside your repository, `cd mshafae.github.io` for example. In this directory, using your text editor, VS Code, create a file named `index.md`. In the terminal, you can use the command `code index.md` and it will create the file `index.md` and open it for editing.
-Start by adding the following into `index.md` and replace *your_username* with your GitHub username, *Your Name* with your name, and *your_major* with your major.
+Start by adding the following into `index.md` and replace **your_username** with your GitHub username, **Your Name** with your name, and **your_major** with your major.
     
     Use the reflections that you wrote in the previous step to create a bulleted list of at least three projects from CPSC 120. Make sure that the links you use are correct by clicking the links and verifying that they load correctly. The previously used example is shown below.
 
