@@ -55,18 +55,18 @@ The repositories that you used in your course are all owned by your instructor. 
 
 Use GitHub's [Importer](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/importing-a-repository-with-github-importer) to import your lab repositories into your personal GitHub account. GitHub has [instructions posted online](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/importing-a-repository-with-github-importer) with screenshots to help you navigate how to do it. If you get stuck or need help, ask your instructor or teaching associate for help.
 
-The tricky part starts on _step 6_. This is where you provide your username and password to import your old repository (the one you used for this class) into the new repository (the repository you just created following GitHub's instructions). Attempt your GitHub password first. If this does not work, use your GitHub Personal Authentication Token (PAT).
+The tricky part starts on **step 6**. This is where you provide your username and password to import your old repository (the one you used for this class) into the new repository (the repository you just created following GitHub's instructions). Attempt your GitHub password first. If this does not work, use your GitHub Personal Authentication Token (PAT).
 
 If you do not know what your PAT is, just create a new one following [GitHub's PAT instrctions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
 
-Verify that you have imported the repository by visiting your GitHub profile. If you do not see the repository in your profile then it did not transfer. Try following the steps again and if you continue to be unsuccessful ask an instructor for help. (To get to your profile, login to [GitHub](https://github.com/), click on your profile icon in the upper right hand corner, and then click on _Your profile_.)
+Verify that you have imported the repository by visiting your GitHub profile. If you do not see the repository in your profile then it did not transfer. Try following the steps again and if you continue to be unsuccessful ask an instructor for help. (To get to your profile, login to [GitHub](https://github.com/), click on your profile icon in the upper right hand corner, and then click on **Your profile**.)
 
 ## Step 3: Reflection
 
 **Before continuing: please have your three favorite projects selected. Verify that you have transferred those repositories into your GitHub account. Seek assistance from your instructor if needed.**
 
-For each of your favorite labs, write down in your notebook _at least 3 sentences_ why that lab is your favorite and what you learned. Your narrative should be _no less than 30 words in length_. Be specific about why you like the lab and what you learned. _It is part of your grade for this assignment!_
+For each of your favorite labs, write down in your notebook **at least 3 sentences** why that lab is your favorite and what you learned. Your narrative should be **no less than 30 words in length**. Be specific about why you like the lab and what you learned. **It is part of your grade for this assignment!**
 
 For example, in [Lab 07](https://csufullerton.instructure.com/courses/3381162/assignments/34637727) there were two parts. The first part was writing a program that calculates the number of days between two dates and the second part calculated the value of a Blackjack hand. One could write:
 
