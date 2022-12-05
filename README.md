@@ -33,7 +33,9 @@ Students who are interested in having a page that looks fancier can use [HTML](h
 
 A _universal resource locator_ or _URL_ is the term we use to identify unique addresses on the World Wide Web. Casually in conversation, we may refer to a URL as a _link_. GitHub's URL or link is http://github.com and CSU Fullerton's is http://fullerton.edu.
 
-Think about your three favorite lab exercises that you completed this semester. Below are the links to each Canvas lab assignment. **Bookmark or write down your favorite lab repositories or lab parts. You will need these URLs for the next step.**
+Think about your three favorite lab exercises that you completed this semester. You may have a hard time remembering each one so review the labs that you have on your computer.
+
+In case, you no longer have copies of your labs on your computer the links to each Canvas lab assignment is given below. **Bookmark or write down your favorite lab repositories or lab parts to make it easier to find your favorite labs.**
 
 * [Lab 02](https://csufullerton.instructure.com/courses/3381162/assignments/34485143)
 * [Lab 03](https://csufullerton.instructure.com/courses/3381162/assignments/34562947)
@@ -47,37 +49,22 @@ Think about your three favorite lab exercises that you completed this semester. 
 * [Lab 11](https://csufullerton.instructure.com/courses/3381162/assignments/34697637)
 * [Lab 12](https://csufullerton.instructure.com/courses/3381162/assignments/34727919)
 
-## Step 2: Transferring Repositories
-
-**If you did not bookmark your favorite repositories in Step 1, please go back and do that before continuing.**
-
-The repositories that you used in your course are all owned by your instructor. After the semester is over, the repositories will be archived and then deleted. This means that if you want to save a copy of your work for your portfolio or for next semester, you will need to transfer the repository to your own GitHub account.
-
-Use GitHub's [Importer](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/importing-a-repository-with-github-importer) to import your lab repositories into your personal GitHub account. GitHub has [instructions posted online](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/importing-a-repository-with-github-importer) with screenshots to help you navigate how to do it. If you get stuck or need help, ask your instructor or teaching associate for help.
-
-The tricky part starts on **step 6**. This is where you provide your username and password to import your old repository (the one you used for this class) into the new repository (the repository you just created following GitHub's instructions). Attempt your GitHub password first. If this does not work, use your GitHub Personal Authentication Token (PAT).
-
-If you do not know what your PAT is, just create a new one following [GitHub's PAT instrctions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
-
-
-Verify that you have imported the repository by visiting your GitHub profile. If you do not see the repository in your profile then it did not transfer. Try following the steps again and if you continue to be unsuccessful ask an instructor for help. (To get to your profile, login to [GitHub](https://github.com/), click on your profile icon in the upper right hand corner, and then click on **Your profile**.)
-
-## Step 3: Reflection
+## Step 2: Reflection
 
 **Before continuing: please have your three favorite projects selected. Verify that you have transferred those repositories into your GitHub account. Seek assistance from your instructor if needed.**
 
-For each of your favorite labs, write down in your notebook **at least 3 sentences** why that lab is your favorite and what you learned. Your narrative should be **no less than 30 words in length**. Be specific about why you like the lab and what you learned. **It is part of your grade for this assignment!**
+For each of your favorite labs, write down in your notebook **at least 3 sentences** why that lab is your favorite and what you learned. Your narrative must be **no less than 30 words in length**. Be specific about why you like the lab and what you learned. **It is part of your grade for this assignment!**
 
 For example, in [Lab 07](https://csufullerton.instructure.com/courses/3381162/assignments/34637727) there were two parts. The first part was writing a program that calculates the number of days between two dates and the second part calculated the value of a Blackjack hand. One could write:
 
 > Lab 7, part 2 was a favorite because I was always curious about how the game Blackjack works. I was able to write functions for the first time that calculate the correct value of a Blackjack hand no matter how many Aces were dealt.
 
-Carefully and considerately write your reflection about your three favorite labs. Your spelling and grammar matter.
+Carefully and considerately write your reflection about your three favorite labs. Your spelling and grammar matter. Remember that each narrative reflection must be **at least 3 sentences** long. Your reflection must clearly express why that lab/part is your favorite and what you learned. Your narrative reflection must be **no less than 30 words in length**. Be specific about why you like the lab/part and what you learned.
 
 
-## Step 4: Your Home Page
+## Step 3: Your Home Page
 
-**Before continuing: please have your reflections from Step 3 written down and ready to be published on the web. Check your spelling and grammar, use tools like Google Docs, Microsoft Word, and Grammarly to improve your writing.**
+**Before continuing: please have your reflections from Step 2 written down and ready to be published on the web. Check your spelling and grammar, use tools like Google Docs, Microsoft Word, and Grammarly to improve your writing.**
 
 We will use [GitHub Pages](https://pages.github.com/) to host and serve your home page. GitHub Pages is a service where you create a git repository that contains HTML, CSS, JavaScript, images, etc. for your own personal home page and GitHub will serve those pages for you at no cost.
 
@@ -105,7 +92,7 @@ Start by adding the following into `index.md` and replace **your_username** with
 
     ### CPSC 120
 
-    * [Lab 7](http://github.com/your_username/the_link_to_your_repository)
+    * Lab 7
     Lab 7, part 2 was a favorite because I was always curious about how the
     game Blackjack works. I was able to write functions for the first time
     that calculate the correct value of a Blackjack hand no matter how many
@@ -122,7 +109,7 @@ Start by adding the following into `index.md` and replace **your_username** with
 
     ### CPSC 120
 
-    * [Lab 7](http://github.com/your_username/the_link_to_your_repository)
+    * Lab 7
     Lab 7, part 2 was a favorite because I was always curious about how the
     game Blackjack works. I was able to write functions for the first time
     that calculate the correct value of a Blackjack hand no matter how many
@@ -219,6 +206,8 @@ A submission that does not use the GitHub username the instructors have on recor
     Index files that are not written in Markdown or HTML shall receive 0 points in this category.
     Index files that are missing in part or in whole the required student information shall receive 0 points in this category.
 
-* Favorite Labs and Reflection: (6 points each; 18 points total) The index file must clearly identify a minimum of three lab assignments from the current CPSC 120 term that were authored by the student or a student team that the student was a part of. Each listed lab must have a hyperlink to a copy of the lab's repository under the student's GitHub account. Each lab must have a grammatically correct and meaninful reflection. Students are urged to use the template provided in this document.
-    Missing or incomplete lab and reflection will loose 6 points each.
+* Favorite Labs and Reflection: (6 points each; 18 points total) The index file must clearly identify a minimum of three lab assignments from the current CPSC 120 term that were authored by the student or a student team that the student was a part of. Each lab must have a grammatically correct and meaninful reflection. Students are urged to use the template provided in this document.
+    3 points are earned for identifying what the student liked about the lab for each reflection. Omitting what was liked about the lab forfeits 3 points.
+    3 points are earned for identifying realized learning objectives for each reflection. Omitting what learning objective was realized forfeits 3 points.
+    Missing reflections will loose 6 points each.
     Reflections which contain gratuitous grammatical or spelling errors will loose 6 points each.
