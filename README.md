@@ -93,10 +93,10 @@ Start by adding the following into `index.md` and replace **your_username** with
     ### CPSC 120
 
     * Lab 7
-    Lab 7, part 2 was a favorite because I was always curious about how the
-    game Blackjack works. I was able to write functions for the first time
-    that calculate the correct value of a Blackjack hand no matter how many
-    Aces were dealt.
+        Lab 7, part 2 was a favorite because I was always curious about how the
+        game Blackjack works. I was able to write functions for the first time
+        that calculate the correct value of a Blackjack hand no matter how many
+        Aces were dealt.
     ```
 
     The above text will transform into HTML when it is saved to GitHub and will look like the following block of text.
@@ -110,10 +110,10 @@ Start by adding the following into `index.md` and replace **your_username** with
     ### CPSC 120
 
     * Lab 7
-    Lab 7, part 2 was a favorite because I was always curious about how the
-    game Blackjack works. I was able to write functions for the first time
-    that calculate the correct value of a Blackjack hand no matter how many
-    Aces were dealt.
+        Lab 7, part 2 was a favorite because I was always curious about how the
+        game Blackjack works. I was able to write functions for the first time
+        that calculate the correct value of a Blackjack hand no matter how many
+        Aces were dealt.
 
 
 1. Save this file and add it to your repository with the `git add` command.
