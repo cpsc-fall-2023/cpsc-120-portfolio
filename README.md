@@ -51,7 +51,7 @@ In case, you no longer have copies of your labs on your computer the links to ea
 
 ## Step 2: Reflection
 
-**Before continuing: please have your three favorite projects selected. Verify that you have transferred those repositories into your GitHub account. Seek assistance from your instructor if needed.**
+**Before continuing: please have your three favorite projects selected.**
 
 For each of your favorite labs, write down in your notebook **at least 3 sentences** why that lab is your favorite and what you learned. Your narrative must be **no less than 30 words in length**. Be specific about why you like the lab and what you learned. **It is part of your grade for this assignment!**
 
