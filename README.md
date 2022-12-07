@@ -93,6 +93,7 @@ Start by adding the following into `index.md` and replace **your_username** with
     ### CPSC 120
 
     * Lab 7
+
         Lab 7, part 2 was a favorite because I was always curious about how the
         game Blackjack works. I was able to write functions for the first time
         that calculate the correct value of a Blackjack hand no matter how many
@@ -110,6 +111,7 @@ Start by adding the following into `index.md` and replace **your_username** with
     ### CPSC 120
 
     * Lab 7
+        
         Lab 7, part 2 was a favorite because I was always curious about how the
         game Blackjack works. I was able to write functions for the first time
         that calculate the correct value of a Blackjack hand no matter how many
