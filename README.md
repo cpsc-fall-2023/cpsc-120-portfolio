@@ -126,12 +126,56 @@ Start by adding the following into `index.md` and replace **your_username** with
     ```sh
     $ git add index.md
     ```
-1. Commit the changes to your git repository and push the changes back to GitHub using the `git commit` and `git push` commands.
+1. Commit the changes to your git repository and push the changes back to GitHub using the `git commit` and `git push` commands. **Very important - the instructions on GitHub are slightly off. Make sure you use the `git branch` and `git push` commands below.**
     ```sh
     $ git commit -a -m "Initial commit of my home page."
-    $ git push
+    $ git branch -m main
+    $ git push -u origin main
     ```
 1. If you have successfully created your `index.md` file and pushed it to GitHub, you can visit your own GitHub Pages URL to view your newly created page. For example, if your username is `mshafae`, then you would type `https://mshafae.github.io` in the address box of your web browser. Replace `mshafae` with your GitHub username.
+
+### Common Problems
+
+#### Master Branch
+A common problem is that Ubuntu 20 and other systems uses an older version of `git` than what GitHub expects. Since version 2.28, `git` no longer uses a hard coded default branch name called `master`. Instead, GitHub expects the default branch name to be `main`. The solution is to rename your branch.
+
+For example, if you try to push your repository and you see an error message simiar to the following:
+```sh
+$ git push
+Username for 'https://github.com': mshafae
+Password for 'https://mshafae@github.com': 
+No refs in common and none specified; doing nothing.
+Perhaps you should specify a branch such as 'master'.
+Everything up-to-date
+```
+
+Another example of the same problem is the following:
+
+```sh
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/mshafae/test-repo.git'
+```
+
+Both of these errors mean that you have your default branch named `master`. To solve this problem, run the following commands:
+
+```sh
+$ git branch -m main
+$ git push -u origin main
+Username for 'https://github.com': mshafae
+Password for 'https://mshafae@github.com': 
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 908 bytes | 908.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/mshafae/test-repo.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+```
+
+This will resolve the problem and you will have updated your repository.
+
+#### Still Have Problems
 
 If your changes did not appear online, then
 1. Make sure you have the correct URL, remember it is github.io not github.com
