@@ -154,7 +154,7 @@ Another example of the same problem is the following:
 ```sh
 $ git push -u origin main
 error: src refspec main does not match any
-error: failed to push some refs to 'https://github.com/mshafae/test-repo.git'
+error: failed to push some refs to 'https://github.com/mshafae/mshafae.github.io.git'
 ```
 
 Both of these errors mean that you have your default branch named `master`. To solve this problem, run the following commands:
@@ -168,7 +168,7 @@ Enumerating objects: 3, done.
 Counting objects: 100% (3/3), done.
 Writing objects: 100% (3/3), 908 bytes | 908.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/mshafae/test-repo.git
+To https://github.com/mshafae/mshafae.github.io.git
  * [new branch]      main -> main
 Branch 'main' set up to track remote branch 'main' from 'origin'.
 ```
