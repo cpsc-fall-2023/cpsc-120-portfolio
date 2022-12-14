@@ -276,7 +276,7 @@ A submission that does not use the GitHub username the instructors have on recor
     Index files that are not written in Markdown shall receive 0 points in this category.
     Index files that are missing in part or in whole the required student information shall receive 0 points in this category.
 
-* Favorite Labs and Reflection: (6 points each; 18 points total) The index file must clearly identify a minimum of three lab assignments from the current CPSC 120 term that were authored by the student or a student team that the student was a part of. Each lab must have a grammatically correct and meaninful reflection. Students are urged to use the template provided in this document.
+* Favorite Labs and Reflection: (6 points each; 18 points total) The index file must clearly identify a minimum of three lab assignments from the current CPSC 120 term that were authored by the student or a student team that the student was a part of. Each lab must have a grammatically correct and meaningful reflection. Students are urged to use the template provided in this document.
     3 points are earned for identifying what the student liked about the lab for each reflection. Omitting what was liked about the lab forfeits 3 points.
     3 points are earned for identifying realized learning objectives for each reflection. Omitting what learning objective was realized forfeits 3 points.
     Missing reflections will loose 6 points each.
@@ -284,4 +284,4 @@ A submission that does not use the GitHub username the instructors have on recor
 
 ### Unpublishing
 
-Should you wish to remove your portfolio from the World Wide Web, you can [remove your repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/deleting-a-repository) after you have received a grade for the assignment. Please retain a copy for your records.
+Should you wish to unpublish your portfolio from the World Wide Web, you can [remove your repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/deleting-a-repository) after you have received a grade for the assignment. Please retain a copy for your records.
