@@ -8,6 +8,8 @@ If you do not have any experience or knowledge on how to make a web page, this w
 
 We shall use GitHub's service called [GitHub Pages](https://pages.github.com/) to host your web page in a GitHub repository. We shall use [Markdown](https://en.wikipedia.org/wiki/Markdown) instead of HTML to simplify creating our web pages.
 
+There is nothing to submit via Canvas. If you completed the portfolio, then when you reach the end of _Step 3: Your Home Page_ you will be able to view your webpage by visiting `yourusername.github.io` in your web browser and see your portfolio. We will view this web page after the deadline and assign a grade.
+
 **This is an individual assignment. Each student must create their own portfolio. This is a graded assignment. There is a rubric at the end of the document which will guide how your assignment is scored.**
 
 ## Background & Motivation
@@ -279,3 +281,7 @@ A submission that does not use the GitHub username the instructors have on recor
     3 points are earned for identifying realized learning objectives for each reflection. Omitting what learning objective was realized forfeits 3 points.
     Missing reflections will loose 6 points each.
     Reflections which contain gratuitous grammatical or spelling errors will loose 6 points each.
+
+### Unpublishing
+
+Should you wish to remove your portfolio from the World Wide Web, you can [remove your repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/deleting-a-repository) after you have received a grade for the assignment. Please retain a copy for your records.
