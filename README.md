@@ -140,6 +140,7 @@ Start by adding the following into `index.md` and replace **your_username** with
 A common problem is that Ubuntu 20 and other systems uses an older version of `git` than what GitHub expects. Since version 2.28, `git` no longer uses a hard coded default branch name called `master`. Instead, GitHub expects the default branch name to be `main`. The solution is to rename your branch.
 
 For example, if you try to push your repository and you see an error message simiar to the following:
+
 ```sh
 $ git push
 Username for 'https://github.com': mshafae
@@ -174,6 +175,23 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
 ```
 
 This will resolve the problem and you will have updated your repository.
+
+#### Wrong Filename or Not Using Markdown
+
+Do not use the filename `index.html` or `Index.html`. For this exercise, you are _required_ to use Markdown.
+
+If you created a file named `index.html`, please rename it. You can do this using the `git` command. First, make sure you do not have the file open in your text editor, VS Code. Next, make sure you have committed all your changes to your repository before renaming the file. For example, the following series of commands will work in most cases to rename a file from `index.html` to `index.md` when it is already part of a Git repository.
+
+```sh
+$ git commit -a -m "Checking in all files."
+$ git mv index.html index.md
+$ git commit -a -m "Renamed index.html to index.md"
+$ git push
+```
+
+#### Misspelling `index.md`
+
+Double check to make sure the name of your indes file is `index.md`. It is a common mistake to accidentally name the file `Index.md`, notice the capitalized letter _i_. The file name must be all lower case letters. The correct file name is `index.md`.
 
 #### Still Have Problems
 
@@ -252,8 +270,8 @@ A submission that does not use the GitHub username the instructors have on recor
 
 * Repository: (6 points) Your repository is correctly named and can be accessed using GitHub pages. For example, if your username is `tuffy`, then the repository name is `tuffy.github.io` and the index page can be reached by visiting the URL `https://tuffy.github.io/`.
 
-* Index File & Student Information: (6 points) An index file exists and can be viewed using a web browser from GitHub Pages. The index file is written in Markdown or HTML. The index file contains at a minimum, the student's name, the university the student attends, the student's major, and a link to their GitHub profile. Students are urged to use the template provided in this document.
-    Index files that are not written in Markdown or HTML shall receive 0 points in this category.
+* Index File & Student Information: (6 points) An index file exists and can be viewed using a web browser from GitHub Pages. The index file is written in Markdown. The index file contains at a minimum, the student's name, the university the student attends, the student's major, and a link to their GitHub profile. Students are urged to use the template provided in this document.
+    Index files that are not written in Markdown shall receive 0 points in this category.
     Index files that are missing in part or in whole the required student information shall receive 0 points in this category.
 
 * Favorite Labs and Reflection: (6 points each; 18 points total) The index file must clearly identify a minimum of three lab assignments from the current CPSC 120 term that were authored by the student or a student team that the student was a part of. Each lab must have a grammatically correct and meaninful reflection. Students are urged to use the template provided in this document.
