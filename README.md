@@ -1,6 +1,6 @@
 # Reflection & Making a Personal Portfolio
 
-The 16 week long semester is finally over and you have accomplished so much! You learned about problem solving and programming and created a portfolio of programs that demonstrate your competency and along the way you learned and improved your note taking and team work skills.
+The 16 week long semester is almost over and you have accomplished so much! You learned about problem solving and programming and created a portfolio of programs that demonstrate your competency and along the way you learned and improved your note taking and team work skills.
 
 Our goal is to create an online resume or personal homepage which shows off some of your achievements. Ideally, you will add to this portfolio as you work on school related projects as well as your own personal projects.
 
