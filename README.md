@@ -39,17 +39,21 @@ Think about your three favorite lab exercises that you completed this semester. 
 
 In case, you no longer have copies of your labs on your computer the links to each Canvas lab assignment is given below. **Bookmark or write down your favorite lab repositories or lab parts to make it easier to find your favorite labs.**
 
-* [Lab 02](https://csufullerton.instructure.com/courses/3381162/assignments/34485143)
-* [Lab 03](https://csufullerton.instructure.com/courses/3381162/assignments/34562947)
-* [Lab 04](https://csufullerton.instructure.com/courses/3381162/assignments/34596717)
-* [Lab 05](https://csufullerton.instructure.com/courses/3381162/assignments/34609273)
-* [Lab 06](https://csufullerton.instructure.com/courses/3381162/assignments/34624315)
-* [Lab 07](https://csufullerton.instructure.com/courses/3381162/assignments/34637727)
-* [Lab 08](https://csufullerton.instructure.com/courses/3381162/assignments/34650867)
-* [Lab 09](https://csufullerton.instructure.com/courses/3381162/assignments/34662067)
-* [Lab 10](https://csufullerton.instructure.com/courses/3381162/assignments/34685849)
-* [Lab 11](https://csufullerton.instructure.com/courses/3381162/assignments/34697637)
-* [Lab 12](https://csufullerton.instructure.com/courses/3381162/assignments/34727919)
+<!-- comment: short cut to build the list is `count=1 && for i in `./bin/asgts.py -c 3381162 ls | cut -f 1 -d\ `; do echo "* [Lab $count](https://csufullerton.instructure.com/courses/3411194/assignments/$i)"; count=$(($count + 1)); done` -->
+
+* [Lab 01](https://csufullerton.instructure.com/courses/3411194/assignments/34397432)
+* [Lab 02](https://csufullerton.instructure.com/courses/3411194/assignments/34485143)
+* [Lab 03](https://csufullerton.instructure.com/courses/3411194/assignments/34562947)
+* [Lab 04](https://csufullerton.instructure.com/courses/3411194/assignments/34596717)
+* [Lab 05](https://csufullerton.instructure.com/courses/3411194/assignments/34609273)
+* [Lab 06](https://csufullerton.instructure.com/courses/3411194/assignments/34624315)
+* [Lab 07](https://csufullerton.instructure.com/courses/3411194/assignments/34637727)
+* [Lab 08](https://csufullerton.instructure.com/courses/3411194/assignments/34650867)
+* [Lab 09](https://csufullerton.instructure.com/courses/3411194/assignments/34662067)
+* [Lab 10](https://csufullerton.instructure.com/courses/3411194/assignments/34685849)
+* [Lab 11](https://csufullerton.instructure.com/courses/3411194/assignments/34697637)
+* [Lab 12](https://csufullerton.instructure.com/courses/3411194/assignments/34727919)
+
 
 ## Step 2: Reflection
 
@@ -57,7 +61,7 @@ In case, you no longer have copies of your labs on your computer the links to ea
 
 For each of your favorite labs, write down in your notebook **at least 3 sentences** why that lab is your favorite and what you learned. Your narrative must be **no less than 30 words in length**. Be specific about why you like the lab and what you learned. **It is part of your grade for this assignment!**
 
-For example, in [Lab 07](https://csufullerton.instructure.com/courses/3381162/assignments/34637727) there were two parts. The first part was writing a program that calculates the number of days between two dates and the second part calculated the value of a Blackjack hand. One could write:
+For example, in [Lab 07](https://csufullerton.instructure.com/courses/3411194/assignments/34637727) there were two parts. The first part was writing a program that calculates the number of days between two dates and the second part calculated the value of a Blackjack hand. One could write:
 
 > Lab 7, part 2 was a favorite because I was always curious about how the game Blackjack works. I was able to write functions for the first time that calculate the correct value of a Blackjack hand no matter how many Aces were dealt.
 
