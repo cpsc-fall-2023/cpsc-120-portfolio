@@ -199,6 +199,10 @@ $ git push
 
 Double check to make sure the name of your indes file is `index.md`. It is a common mistake to accidentally name the file `Index.md`, notice the capitalized letter _i_. The file name must be all lower case letters. The correct file name is `index.md`.
 
+#### Try One More Commit
+
+Occasionally, your `yourusername.github.io` will continue to show a 404 error message after you have pushed your first change to `index.md`. Pushing a second change to `index.md` seems to spur GitHub Pages to serve your page properly. So if you have double-checked that your repository is named correctly, public, and  your `index.md` file is named correctly, and you are still getting a 404 error message, try making another change to `index.md`, push your change, wait three minutes, and reload the `yourusername.github.io` page. 
+
 #### Still Have Problems
 
 If your changes did not appear online, then
